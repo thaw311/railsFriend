@@ -1,0 +1,16 @@
+<h1> About Page</h1>
+<% if user_signed_in? %>
+	<div class="card">
+ 		<div class="card-header">
+    		Contact Me!!!
+ 		</div>
+  		<div class="card-body">
+    		<p>
+				I have <%= @fri.length %> friends. <br />
+				This is my email address <b><%= @email %></b>. <br />
+				If you want to friend with me , Please contact this mail. <br />
+				I will hope you.
+			</p>
+  		</div>
+	</div>
+<% end %>
